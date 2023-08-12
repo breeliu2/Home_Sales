@@ -3,12 +3,9 @@ This repository contains a Jupyter Notebook (Home_Sales.ipynb) that demonstrates
 
 # Instructions
 * File Renaming: Start by renaming the Home_Sales_starter_code.ipynb file to Home_Sales.ipynb.
-
-## PySpark Setup: Ensure that the necessary PySpark SQL functions are imported. This is crucial for executing Spark SQL queries.
-
-## Data Loading: Read the home_sales_revised.csv data from the starter code into a Spark DataFrame. This dataset will be the foundation of our analysis.
-
-## Temporary Table: Create a temporary table named home_sales to facilitate SparkSQL operations on the dataset.
+* PySpark Setup: Ensure that the necessary PySpark SQL functions are imported. This is crucial for executing Spark SQL queries.
+* Data Loading: Read the home_sales_revised.csv data from the starter code into a Spark DataFrame. This dataset will be the foundation of our analysis.
+* Temporary Table: Create a temporary table named home_sales to facilitate SparkSQL operations on the dataset.
 
 # Analysis
 Query 1: Average Price for Four-Bedroom Houses: Use SparkSQL to calculate the average price for a four-bedroom house sold each year. Round off your answer to two decimal places.
